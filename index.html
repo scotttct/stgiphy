@@ -40,6 +40,12 @@
               </ul>
            
               <form class="form-inline my-2 my-lg-0" id="searchForm">
+                <select class="form-control m-2" id="ddlNum">
+                  <option value="5">--select number of gifs--</option>
+                  <option value="10">10 gifs</option>
+                  <option value="20">20 gifs</option>
+                  <option value="30">30 gifs</option>
+              </select>
                 <input class="form-control mr-sm-2" id="searchInput" type="search" placeholder="Search for gifs" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="submit">Search</button>
               </form>
@@ -75,7 +81,13 @@
 <div class="loader-wrapper">
     <div class="lds-circle"><div></div></div>
 </div>
+<!-- cannot get the footer in the right place! -->
 
+<!-- <footer class="row text-light bg-dark text-center">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">testing</div>
+  <div class="col-md-4"></div>
+</footer> -->
 <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

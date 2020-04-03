@@ -1,7 +1,18 @@
 //code was modified from https://www.youtube.com/watch?v=x9Vy-wmtYic
 (function () {
+
+  var selectedValue = 5;
+  
+  $(function () {
+    $("#ddlNum").change(function () {
+        
+        selectedValue = $(this).val();
+        return selectedValue
+    });
+});
+
   function giphySearch(keyword) {
-    return fetch(`http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${GIPHY_KEY}&limit=10`)
+    return fetch(`http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${GIPHY_KEY}&limit=${selectedValue}`)
       .then(response => response.json());
   }
 
