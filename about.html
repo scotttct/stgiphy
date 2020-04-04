@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Toma-Gify</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -20,11 +21,11 @@
           <div class="float-right">
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="About.html">About</a>
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="About.html">About <span class="sr-only">(current)</span></a>
                 </li>
               </ul> 
             </div>
@@ -32,13 +33,13 @@
         </div>
           </nav>
         <div class="jumbotron">
-            <h1 class="display-4">STGiphy Search</h1>
-            <p class="lead">Find funny Gifs based on seach criteria</p>
+            <h1 class="display-4">About STGiphy</h1>
+            <p class="lead">Learn more about STGiphy</p>
         </div>
     </header>
     <div class="row">
       <div class="col-md-6">
-      </div>
+      </div> 
       <div class="col-md-6">
         <div class="float-right">
           <form class="form-inline my-2 my-lg-0" id="searchForm">
@@ -58,8 +59,22 @@
       </div>
     </div>
   <div class="container">
-    <div id="thumbs">s
+    <!-- moved the form fields to the top in the navbar -->
+    <!-- <form id="searchForm">
+        <div class="input-group mb-3">
+            <input id="searchInput" type="text" class="form-control" placeholder="Search for a gifs"
+                   aria-label="Recipient's username"
+                   aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="searchButton">Search</button>
+            </div>
+        </div>
+    </form> -->
+   
+    <div id="thumbs">
+
     </div>
+
 </div>
 <div class="loader-wrapper">
     <div class="lds-circle"><div></div></div>
