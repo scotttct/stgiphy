@@ -9,29 +9,30 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark bg-dark ">
-          <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
             <a class="navbar-brand" href="index.html">
-              <img src="https://media3.giphy.com/media/ToMjGpC57TmX0FLDtyU/giphy.gif?cid=2d4fcac7ce2bc747f2950cd9d214d8edadccf1e08724cb43&rid=giphy.gif" height="50" alt="Giphy Gif">
+              <img src="https://media3.giphy.com/media/ToMjGpC57TmX0FLDtyU/giphy.gif?cid=2d4fcac7ce2bc747f2950cd9d214d8edadccf1e08724cb43&rid=giphy.gif" height="40" alt="Giphy Gif">
             </a>
             <a class="navbar-brand" href="index.html">STGiphy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="float-right">
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home </a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="About.html">About <span class="sr-only">(current)</span></a>
-                </li>
-              </ul> 
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-          </div>
         </div>
-          </nav>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="About.html">About <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+        </div>
+    </nav>
         <div class="jumbotron">
             <h1 class="display-4">About STGiphy</h1>
             <p class="lead">Learn more about STGiphy</p>

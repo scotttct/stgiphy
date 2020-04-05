@@ -12,7 +12,7 @@
 });
 
   function giphySearch(keyword) {
-    return fetch(`http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${GIPHY_KEY}&limit=${selectedValue}`)
+    return fetch(`https://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${GIPHY_KEY}&limit=${selectedValue}`)
       .then(response => response.json());
   }
 
