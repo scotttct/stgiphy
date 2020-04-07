@@ -8,43 +8,44 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark bg-dark ">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="https://media3.giphy.com/media/ToMjGpC57TmX0FLDtyU/giphy.gif?cid=2d4fcac7ce2bc747f2950cd9d214d8edadccf1e08724cb43&rid=giphy.gif" height="50" alt="Giphy Gif">
-            </a>
-            <a class="navbar-brand" href="index.html">STGiphy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="float-right">
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="d-flex flex-grow-1">
+              <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+              <a class="navbar-brand" href="index.html">
+                <img src="https://uc55d0f591c8999d856b72719bb6.previews.dropboxusercontent.com/p/thumb/AAyY9KT318pjdwpP3uVeOchMXDKYeOIaKrvTyP9gx4eCFEhaSIYglIasa0eHJJlaTvfdy6ds6x61IpzBft8P36rrV7OQhOdVrV4hL_iXMUGlA7idnUQ0rsRmH4C75wslztLywAGQqLffMLe04s1vpfFwigp8-FHnTRGtLGRhLirKbACLpZwZzjzUysIzZsuuuYkwP-g3GCFBufnFEhKL-hc-wMQI6ZQ332EP4eAKKchTQCUg6jaSb7e9kJOxuMW1GeTTAxMnbjQFSUkTz6UXDXBJ0UbVu7uAWmM12QKBt_dxa01Tl73WDp24uGtIJeuB9OYsw6Yp92cPKzajaqlnVutD/p.png?fv_content=true&size_mode=5" height="40" alt="Giphy Gif">
+              </a>
+              <a class="navbar-brand" href="index.html">STGiphy</a>
+              <div class="w-100 text-right">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+          </div>
+          <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+              <ul class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="About.html">About</a>
                 </li>
-              </ul> 
-            </div>
+              </ul>
           </div>
-        </div>
-          </nav>
-        <div class="jumbotron">
+      </nav>
+      <div class="jumbotron">
             <h1 class="display-4">STGiphy Search</h1>
-            <p class="lead">Find funny Gifs based on seach criteria</p>
-        </div>
+          <p class="lead">Find funny Gifs based on seach criteria</p>
+      </div>
     </header>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
         <div class="float-right">
           <form class="form-inline pb-4 my-2 my-lg-0" id="searchForm">
             <label for="ddlNum" class="sr-only">select number of gifs</label>
-            <select class="form-control m-2" id="ddlNum">
-              <option value="5">--select number of gifs (default = 5)--</option>
+            <select class="form-control m-3" id="ddlNum">
+              <option value="5">select number of gifs(Default = 5)</option>
               <option value="10">10 gifs</option>
               <option value="20">20 gifs</option>
               <option value="30">30 gifs</option>
@@ -87,8 +88,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script src="./js/global.js/"></script>
-    <script src="./js/main.js"></script>
+    <script src="js/global.js" ></script>
+    <script src="js/main.js" ></script>
   </body>
 </html>
 
